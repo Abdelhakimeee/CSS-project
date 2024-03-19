@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+li,
+a,
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: 500px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 70px;
+    margin-right: auto;
+    padding-right: 100;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_links li {
+    margin-right: 30;
+    padding: 0px 20px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin: 0 100px;
+}
+
+/*main*/
+.Main_logo img {
+    margin: 2% 35%;
+    border-radius: 20px;
+}
+
+.m_h1 {
+    color: red;
+    margin-bottom: 50px;
+}
+
+.contenu {
+    display: inline-block;
+    margin-left: 250px;
+
+}
+
+.Cont_1,
+.Cont_2 {
+
+    font-size: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.Cont_1 {
+    margin-right: 200px;
+}
+
+
+.for_patients,
+.for_doctors,
+.for_clinics {
+    font-size: 20px;
+    padding: 50px;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+    margin: 20px 30px 100px 200px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.for_patients {
+    background-color: rgb(29, 29, 194);
+}
+
+.for_doctors {
+    background-color: rgb(164, 18, 18);
+}
+
+.for_clinics {
+    background-color: rgb(177, 17, 148);
+}
+
+.for_in_main img {
+    border-radius: 5px;
+    width: 50px;
+    margin-left: 40px;
+
+
+}
+
+
+/*footer*/
+/*F_header*/
+.F_main,
+.F_header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(203, 203, 203);
+}
+
+h1 {
+    text-align: center;
+}
+
+.F_logo {
+    width: 150px;
+}
+
+.socialMed {
+    display: inline;
+    margin-left: 75%;
+}
+
+.socialMed img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+
+
+}
+
+.resume {
+    display: inline-block;
+}
+
+.Company,
+.services,
+.About {
+    display: inline-block;
+    margin: 0px 150px 20px 150px;
+
+}
+
+.form_F {
+    display: inline-block;
+}
+
+.BButton {
+    display: block;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.F_footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(123, 123, 123);
+    color: rgb(255, 255, 255);
+
+}
+
+.finn_1 {
+    display: inline;
+    margin-left: 50px;
+
+}
+
+.finn_2 {
+    display: inline;
+    margin-left: 620px
+}
